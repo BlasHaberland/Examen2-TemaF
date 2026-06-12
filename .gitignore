@@ -1,0 +1,27 @@
+# Archivos compilados
+*.class
+
+# Directorios de compilación y empaquetado de NetBeans
+/build/
+/dist/
+
+# Archivos y directorios privados de NetBeans
+/nbproject/private/
+/nbproject/Makefile-*.mk
+/nbproject/Package-*.bash
+build.xml.data.workspace
+
+# Archivos comprimidos o empaquetados
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
