@@ -29,4 +29,9 @@ public class Trabajador {
     public String getNombre() {
         return this.nombre;
     }
+
+    public String getEstado() {
+        return this.estado;
+    }
+
 }
