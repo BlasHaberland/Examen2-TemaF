@@ -25,3 +25,4 @@ build.xml.data.workspace
 # Archivos del sistema operativo
 .DS_Store
 Thumbs.db
+/target/
