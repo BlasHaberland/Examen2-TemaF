@@ -26,4 +26,18 @@ public class VisitaTecnica {
         this.tamano = tamano;
         this.fecha_creacion = fecha_creacion;
     }
+
+    public void asignarCuadrilla(Cuadrilla c) {
+        this.cuadrillaAsignada = c;
+        System.out.println("Se ha asignado una cuadrilla a la visita nro: " + this.numero);
+    }
+
+    public void actualizarObservaciones(String detalles, String hora) {
+        this.observaciones = detalles;
+        this.fecha_reparacion = hora;
+    }
+
+    public void setFechaFinalObra(String fecha) {
+        this.fecha_final_obra = fecha;
+    }
 }
