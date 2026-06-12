@@ -33,5 +33,10 @@ public class Trabajador {
     public String getEstado() {
         return this.estado;
     }
+//GETERS QUE NECESITO
+
+    public String getPuesto() {
+        return this.puesto;
+    }
 
 }

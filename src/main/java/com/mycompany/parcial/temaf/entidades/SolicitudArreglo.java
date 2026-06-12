@@ -41,4 +41,25 @@ public class SolicitudArreglo {
         this.visita = v;
         System.out.println("Visita técnica agendada para la solicitud: " + this.codinf);
     }
+
+    //GETTERS QUE NECESITO
+    public Modem getModemRoto() {
+        return this.modemRoto;
+    }
+
+    public VisitaTecnica getVisita() {
+        return this.visita;
+    }
+
+    public String getCodinf() {
+        return this.codinf;
+    }
+
+    public String getProblema() {
+        return this.problema;
+    }
+
+    public int getPrioridad() {
+        return this.prioridad;
+    }
 }

@@ -59,8 +59,20 @@ public class Abonado {
         return matcher.find();
     }
 
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
     //GETTERS QUE NECESITO
     public int getContrasena() {
         return this.contrasena;
+    }
+
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public String getMail() {
+        return this.mail;
     }
 }
