@@ -40,4 +40,13 @@ public class VisitaTecnica {
     public void setFechaFinalObra(String fecha) {
         this.fecha_final_obra = fecha;
     }
+
+    //GETERS QUE NECESITO
+    public Cuadrilla getCuadrillaAsignada() {
+        return this.cuadrillaAsignada;
+    }
+
+    public String getUbicacion() {
+        return this.ubicacion;
+    }
 }

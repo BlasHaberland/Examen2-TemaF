@@ -11,14 +11,14 @@ package com.mycompany.parcial.temaf.entidades;
 public class Lider extends Trabajador {
 
     public Lider(String id, String nombre) {
-        super(id, nombre, "Líder de Cuadrilla");
+        super(id, nombre, "Lider de Cuadrilla");
     }
 
     public void cargarFechaFinal(String fecha) {
-        System.out.println("El líder " + this.nombre + " cargó la fecha final de obra: " + fecha);
+        System.out.println("El lider " + this.nombre + " cargo la fecha final de obra: " + fecha);
     }
 
     public void cargarReparacion(String detalles, String hora) {
-        System.out.println("El líder " + this.nombre + " reportó la reparación: " + detalles + " a las " + hora);
+        System.out.println("El lider " + this.nombre + " reporto la reparacion: " + detalles + " a las " + hora);
     }
 }

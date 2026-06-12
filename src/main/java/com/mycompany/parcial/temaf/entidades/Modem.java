@@ -53,4 +53,9 @@ public class Modem {
     public Documento getDocDrivers() {
         return this.docDrivers;
     }
+
+    //GETERS QUE NECESITO
+    public String getMarca() {
+        return this.marca;
+    }
 }

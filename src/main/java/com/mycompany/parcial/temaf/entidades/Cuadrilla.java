@@ -43,4 +43,24 @@ public class Cuadrilla {
         }
         System.out.println("Los trabajadores de la cuadrilla " + this.numero + " han sido liberados.");
     }
+
+    public boolean estaLibre() {
+        if (trabajadores.isEmpty()) {
+            return false;
+        }
+        for (Trabajador t : trabajadores) {
+            if (t.getEstado().equals("ocupado")) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public ArrayList<Trabajador> getTrabajadores() {
+        return this.trabajadores;
+    }
+
+    public int getNumero() {
+        return this.numero;
+    }
 }
